@@ -9,9 +9,6 @@
 /* Begin PBXBuildFile section */
 		AF4DCC6618686DF6000DE920 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AF4DCC6518686DF6000DE920 /* main.cpp */; };
 		AF4DCC6818686DF6000DE920 /* CrackingTheCodingInterview.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = AF4DCC6718686DF6000DE920 /* CrackingTheCodingInterview.1 */; };
-		AF4DCCAB18688C73000DE920 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF4DCCAA18688C73000DE920 /* XCTest.framework */; };
-		AF4DCCB118688C73000DE920 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AF4DCCAF18688C73000DE920 /* InfoPlist.strings */; };
-		AF4DCCB318688C73000DE920 /* CrackingTheCodingInterviewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AF4DCCB218688C73000DE920 /* CrackingTheCodingInterviewTests.m */; };
 		AF4DCCBB18688CD1000DE920 /* gtest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF4DCCBA18688CD1000DE920 /* gtest.framework */; };
 /* End PBXBuildFile section */
 
@@ -49,10 +46,6 @@
 		AF4DCC7618688005000DE920 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = SOURCE_ROOT; };
 		AF4DCCA818688C73000DE920 /* CrackingTheCodingInterviewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CrackingTheCodingInterviewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF4DCCAA18688C73000DE920 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		AF4DCCAE18688C73000DE920 /* CrackingTheCodingInterviewTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CrackingTheCodingInterviewTests-Info.plist"; sourceTree = "<group>"; };
-		AF4DCCB018688C73000DE920 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		AF4DCCB218688C73000DE920 /* CrackingTheCodingInterviewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CrackingTheCodingInterviewTests.m; sourceTree = "<group>"; };
-		AF4DCCB418688C73000DE920 /* CrackingTheCodingInterviewTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CrackingTheCodingInterviewTests-Prefix.pch"; sourceTree = "<group>"; };
 		AF4DCCBA18688CD1000DE920 /* gtest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = gtest.framework; path = "../googletest-read-only/xcode/DerivedData/gtest/Build/Products/Release/gtest.framework"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -69,7 +62,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				AF4DCCBB18688CD1000DE920 /* gtest.framework in Frameworks */,
-				AF4DCCAB18688C73000DE920 /* XCTest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,20 +130,8 @@
 		AF4DCCAC18688C73000DE920 /* CrackingTheCodingInterviewTests */ = {
 			isa = PBXGroup;
 			children = (
-				AF4DCCB218688C73000DE920 /* CrackingTheCodingInterviewTests.m */,
-				AF4DCCAD18688C73000DE920 /* Supporting Files */,
 			);
 			path = CrackingTheCodingInterviewTests;
-			sourceTree = "<group>";
-		};
-		AF4DCCAD18688C73000DE920 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				AF4DCCAE18688C73000DE920 /* CrackingTheCodingInterviewTests-Info.plist */,
-				AF4DCCAF18688C73000DE920 /* InfoPlist.strings */,
-				AF4DCCB418688C73000DE920 /* CrackingTheCodingInterviewTests-Prefix.pch */,
-			);
-			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -229,7 +209,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AF4DCCB118688C73000DE920 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -248,7 +227,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AF4DCCB318688C73000DE920 /* CrackingTheCodingInterviewTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,17 +239,6 @@
 			targetProxy = AF4DCCB518688C73000DE920 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		AF4DCCAF18688C73000DE920 /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				AF4DCCB018688C73000DE920 /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		AF4DCC6918686DF6000DE920 /* Debug */ = {
