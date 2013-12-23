@@ -9,7 +9,21 @@
 /* Begin PBXBuildFile section */
 		AF4DCC6618686DF6000DE920 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AF4DCC6518686DF6000DE920 /* main.cpp */; };
 		AF4DCC6818686DF6000DE920 /* CrackingTheCodingInterview.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = AF4DCC6718686DF6000DE920 /* CrackingTheCodingInterview.1 */; };
+		AF4DCCAB18688C73000DE920 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF4DCCAA18688C73000DE920 /* XCTest.framework */; };
+		AF4DCCB118688C73000DE920 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AF4DCCAF18688C73000DE920 /* InfoPlist.strings */; };
+		AF4DCCB318688C73000DE920 /* CrackingTheCodingInterviewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AF4DCCB218688C73000DE920 /* CrackingTheCodingInterviewTests.m */; };
+		AF4DCCBB18688CD1000DE920 /* gtest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF4DCCBA18688CD1000DE920 /* gtest.framework */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AF4DCCB518688C73000DE920 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AF4DCC5A18686DF6000DE920 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AF4DCC6118686DF6000DE920;
+			remoteInfo = CrackingTheCodingInterview;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		AF4DCC6018686DF6000DE920 /* CopyFiles */ = {
@@ -33,6 +47,13 @@
 		AF4DCC7418687739000DE920 /* BinaryTreeTemplate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BinaryTreeTemplate.h; sourceTree = "<group>"; };
 		AF4DCC7518687767000DE920 /* TreeNodeTemplate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TreeNodeTemplate.h; sourceTree = "<group>"; };
 		AF4DCC7618688005000DE920 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = SOURCE_ROOT; };
+		AF4DCCA818688C73000DE920 /* CrackingTheCodingInterviewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CrackingTheCodingInterviewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF4DCCAA18688C73000DE920 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		AF4DCCAE18688C73000DE920 /* CrackingTheCodingInterviewTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CrackingTheCodingInterviewTests-Info.plist"; sourceTree = "<group>"; };
+		AF4DCCB018688C73000DE920 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AF4DCCB218688C73000DE920 /* CrackingTheCodingInterviewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CrackingTheCodingInterviewTests.m; sourceTree = "<group>"; };
+		AF4DCCB418688C73000DE920 /* CrackingTheCodingInterviewTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CrackingTheCodingInterviewTests-Prefix.pch"; sourceTree = "<group>"; };
+		AF4DCCBA18688CD1000DE920 /* gtest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = gtest.framework; path = "../googletest-read-only/xcode/DerivedData/gtest/Build/Products/Release/gtest.framework"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +64,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		AF4DCCA518688C73000DE920 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF4DCCBB18688CD1000DE920 /* gtest.framework in Frameworks */,
+				AF4DCCAB18688C73000DE920 /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -50,6 +80,8 @@
 			isa = PBXGroup;
 			children = (
 				AF4DCC6418686DF6000DE920 /* CrackingTheCodingInterview */,
+				AF4DCCAC18688C73000DE920 /* CrackingTheCodingInterviewTests */,
+				AF4DCCA918688C73000DE920 /* Frameworks */,
 				AF4DCC6318686DF6000DE920 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -58,6 +90,7 @@
 			isa = PBXGroup;
 			children = (
 				AF4DCC6218686DF6000DE920 /* CrackingTheCodingInterview */,
+				AF4DCCA818688C73000DE920 /* CrackingTheCodingInterviewTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -93,6 +126,34 @@
 			name = src;
 			sourceTree = "<group>";
 		};
+		AF4DCCA918688C73000DE920 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AF4DCCBA18688CD1000DE920 /* gtest.framework */,
+				AF4DCCAA18688C73000DE920 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AF4DCCAC18688C73000DE920 /* CrackingTheCodingInterviewTests */ = {
+			isa = PBXGroup;
+			children = (
+				AF4DCCB218688C73000DE920 /* CrackingTheCodingInterviewTests.m */,
+				AF4DCCAD18688C73000DE920 /* Supporting Files */,
+			);
+			path = CrackingTheCodingInterviewTests;
+			sourceTree = "<group>";
+		};
+		AF4DCCAD18688C73000DE920 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AF4DCCAE18688C73000DE920 /* CrackingTheCodingInterviewTests-Info.plist */,
+				AF4DCCAF18688C73000DE920 /* InfoPlist.strings */,
+				AF4DCCB418688C73000DE920 /* CrackingTheCodingInterviewTests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -113,6 +174,24 @@
 			productReference = AF4DCC6218686DF6000DE920 /* CrackingTheCodingInterview */;
 			productType = "com.apple.product-type.tool";
 		};
+		AF4DCCA718688C73000DE920 /* CrackingTheCodingInterviewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF4DCCB718688C73000DE920 /* Build configuration list for PBXNativeTarget "CrackingTheCodingInterviewTests" */;
+			buildPhases = (
+				AF4DCCA418688C73000DE920 /* Sources */,
+				AF4DCCA518688C73000DE920 /* Frameworks */,
+				AF4DCCA618688C73000DE920 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AF4DCCB618688C73000DE920 /* PBXTargetDependency */,
+			);
+			name = CrackingTheCodingInterviewTests;
+			productName = CrackingTheCodingInterviewTests;
+			productReference = AF4DCCA818688C73000DE920 /* CrackingTheCodingInterviewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -121,6 +200,11 @@
 			attributes = {
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = "Chris Magnacca";
+				TargetAttributes = {
+					AF4DCCA718688C73000DE920 = {
+						TestTargetID = AF4DCC6118686DF6000DE920;
+					};
+				};
 			};
 			buildConfigurationList = AF4DCC5D18686DF6000DE920 /* Build configuration list for PBXProject "CrackingTheCodingInterview" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -135,9 +219,21 @@
 			projectRoot = "";
 			targets = (
 				AF4DCC6118686DF6000DE920 /* CrackingTheCodingInterview */,
+				AF4DCCA718688C73000DE920 /* CrackingTheCodingInterviewTests */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AF4DCCA618688C73000DE920 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF4DCCB118688C73000DE920 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		AF4DCC5E18686DF6000DE920 /* Sources */ = {
@@ -148,7 +244,34 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		AF4DCCA418688C73000DE920 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF4DCCB318688C73000DE920 /* CrackingTheCodingInterviewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AF4DCCB618688C73000DE920 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AF4DCC6118686DF6000DE920 /* CrackingTheCodingInterview */;
+			targetProxy = AF4DCCB518688C73000DE920 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AF4DCCAF18688C73000DE920 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AF4DCCB018688C73000DE920 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		AF4DCC6918686DF6000DE920 /* Debug */ = {
@@ -223,6 +346,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/chrismagnacca/Projects/C/googletest-read-only/xcode/DerivedData/gtest/Build/Products/Debug",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				"USER_HEADER_SEARCH_PATHS[arch=*]" = "$(SRCROOT)/include/";
 			};
@@ -232,8 +359,48 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/chrismagnacca/Projects/C/googletest-read-only/xcode/DerivedData/gtest/Build/Products/Debug",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				"USER_HEADER_SEARCH_PATHS[arch=*]" = "$(SRCROOT)/include/";
+			};
+			name = Release;
+		};
+		AF4DCCB818688C73000DE920 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+					"/Users/chrismagnacca/Projects/C/googletest-read-only/xcode/DerivedData/gtest/Build/Products/Release",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CrackingTheCodingInterviewTests/CrackingTheCodingInterviewTests-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "CrackingTheCodingInterviewTests/CrackingTheCodingInterviewTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		AF4DCCB918688C73000DE920 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+					"/Users/chrismagnacca/Projects/C/googletest-read-only/xcode/DerivedData/gtest/Build/Products/Release",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CrackingTheCodingInterviewTests/CrackingTheCodingInterviewTests-Prefix.pch";
+				INFOPLIST_FILE = "CrackingTheCodingInterviewTests/CrackingTheCodingInterviewTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
 			};
 			name = Release;
 		};
@@ -254,6 +421,14 @@
 			buildConfigurations = (
 				AF4DCC6C18686DF6000DE920 /* Debug */,
 				AF4DCC6D18686DF6000DE920 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AF4DCCB718688C73000DE920 /* Build configuration list for PBXNativeTarget "CrackingTheCodingInterviewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF4DCCB818688C73000DE920 /* Debug */,
+				AF4DCCB918688C73000DE920 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
