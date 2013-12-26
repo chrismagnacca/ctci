@@ -18,15 +18,15 @@ namespace DataStructures {
 		
     public:
         TreeNode(T);
-        T data
+        T data;
         TreeNode* left;
         TreeNode* right;
 	};
 	
 	template<typename T>
 	TreeNode<T>::TreeNode(T value) {
-		left = 0;
-		right = 0;
+		left = NULL;
+		right = NULL;
 		data = value;
 	}
 };

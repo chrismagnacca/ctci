@@ -11,6 +11,8 @@
 		AF4DCC6618686DF6000DE920 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AF4DCC6518686DF6000DE920 /* main.cpp */; };
 		AF4DCC6818686DF6000DE920 /* CrackingTheCodingInterview.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = AF4DCC6718686DF6000DE920 /* CrackingTheCodingInterview.1 */; };
 		AF4DCCC318688FE9000DE920 /* TestLinkedList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AF4DCCC118688FE9000DE920 /* TestLinkedList.cpp */; };
+		AFF03BFF186CB3E500A27066 /* TestBinaryTree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AFF03BFD186CB3E500A27066 /* TestBinaryTree.cpp */; };
+		AFF03C02186CB6FE00A27066 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AFF03C00186CB6FE00A27066 /* main.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -37,6 +39,8 @@
 		AF4DCC7518687767000DE920 /* TreeNodeTemplate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TreeNodeTemplate.h; sourceTree = "<group>"; };
 		AF4DCC7618688005000DE920 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = SOURCE_ROOT; };
 		AF4DCCC118688FE9000DE920 /* TestLinkedList.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TestLinkedList.cpp; sourceTree = "<group>"; };
+		AFF03BFD186CB3E500A27066 /* TestBinaryTree.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TestBinaryTree.cpp; sourceTree = "<group>"; };
+		AFF03C00186CB6FE00A27066 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +116,8 @@
 			isa = PBXGroup;
 			children = (
 				AF4DCCC118688FE9000DE920 /* TestLinkedList.cpp */,
+				AFF03BFD186CB3E500A27066 /* TestBinaryTree.cpp */,
+				AFF03C00186CB6FE00A27066 /* main.cpp */,
 			);
 			path = CrackingTheCodingInterviewTests;
 			sourceTree = "<group>";
@@ -167,7 +173,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AFF03BFF186CB3E500A27066 /* TestBinaryTree.cpp in Sources */,
 				AF4DCCC318688FE9000DE920 /* TestLinkedList.cpp in Sources */,
+				AFF03C02186CB6FE00A27066 /* main.cpp in Sources */,
 				AF4DCC6618686DF6000DE920 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

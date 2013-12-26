@@ -49,6 +49,10 @@ TEST_F(LinkedListTest, InsertNodeInsertsListNode) {
     EXPECT_EQ(1, l2_.Size());
 }
 
+TEST_F(LinkedListTest, InsertNodeReturnsTrueOnSuccess) {
+    EXPECT_EQ(1, l2_.InsertNode(1));
+}
+
 TEST_F(LinkedListTest, RemoveNodeRemovesListNode) {
     l2_.InsertNode(1);
     EXPECT_EQ(1, l2_.Size());
@@ -60,8 +64,3 @@ TEST_F(LinkedListTest, RemoveNodeReturnsFalseIfNodeNotFound){
     EXPECT_EQ(0, l0_.RemoveNode(-1));
 }
 
-
-int main(int argc, char **argv) {
-    ::testing::InitGoogleTest(&argc, argv);
-    return RUN_ALL_TESTS();
-}
