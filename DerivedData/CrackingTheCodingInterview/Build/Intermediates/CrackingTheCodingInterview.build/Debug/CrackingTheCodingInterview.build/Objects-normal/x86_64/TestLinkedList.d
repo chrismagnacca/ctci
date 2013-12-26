@@ -1,0 +1,22 @@
+dependencies: \
+  /Users/chrismagnacca/Projects/C++/CrackingTheCodingInterview/CrackingTheCodingInterviewTests/TestLinkedList.cpp \
+  /Users/chrismagnacca/Projects/C/googletest-read-only/xcode/DerivedData/gtest/Build/Products/Debug/gtest.framework/Headers/gtest.h \
+  /Users/chrismagnacca/Projects/C/googletest-read-only/xcode/DerivedData/gtest/Build/Products/Debug/gtest.framework/Headers/internal/gtest-internal.h \
+  /Users/chrismagnacca/Projects/C/googletest-read-only/xcode/DerivedData/gtest/Build/Products/Debug/gtest.framework/Headers/internal/gtest-port.h \
+  /Users/chrismagnacca/Projects/C/googletest-read-only/xcode/DerivedData/gtest/Build/Products/Debug/gtest.framework/Headers/gtest-message.h \
+  /Users/chrismagnacca/Projects/C/googletest-read-only/xcode/DerivedData/gtest/Build/Products/Debug/gtest.framework/Headers/internal/gtest-string.h \
+  /Users/chrismagnacca/Projects/C/googletest-read-only/xcode/DerivedData/gtest/Build/Products/Debug/gtest.framework/Headers/internal/gtest-filepath.h \
+  /Users/chrismagnacca/Projects/C/googletest-read-only/xcode/DerivedData/gtest/Build/Products/Debug/gtest.framework/Headers/internal/gtest-type-util.h \
+  /Users/chrismagnacca/Projects/C/googletest-read-only/xcode/DerivedData/gtest/Build/Products/Debug/gtest.framework/Headers/gtest-death-test.h \
+  /Users/chrismagnacca/Projects/C/googletest-read-only/xcode/DerivedData/gtest/Build/Products/Debug/gtest.framework/Headers/internal/gtest-death-test-internal.h \
+  /Users/chrismagnacca/Projects/C/googletest-read-only/xcode/DerivedData/gtest/Build/Products/Debug/gtest.framework/Headers/gtest-param-test.h \
+  /Users/chrismagnacca/Projects/C/googletest-read-only/xcode/DerivedData/gtest/Build/Products/Debug/gtest.framework/Headers/internal/gtest-param-util.h \
+  /Users/chrismagnacca/Projects/C/googletest-read-only/xcode/DerivedData/gtest/Build/Products/Debug/gtest.framework/Headers/internal/gtest-linked_ptr.h \
+  /Users/chrismagnacca/Projects/C/googletest-read-only/xcode/DerivedData/gtest/Build/Products/Debug/gtest.framework/Headers/gtest-printers.h \
+  /Users/chrismagnacca/Projects/C/googletest-read-only/xcode/DerivedData/gtest/Build/Products/Debug/gtest.framework/Headers/internal/gtest-param-util-generated.h \
+  /Users/chrismagnacca/Projects/C/googletest-read-only/xcode/DerivedData/gtest/Build/Products/Debug/gtest.framework/Headers/gtest_prod.h \
+  /Users/chrismagnacca/Projects/C/googletest-read-only/xcode/DerivedData/gtest/Build/Products/Debug/gtest.framework/Headers/gtest-test-part.h \
+  /Users/chrismagnacca/Projects/C/googletest-read-only/xcode/DerivedData/gtest/Build/Products/Debug/gtest.framework/Headers/gtest-typed-test.h \
+  /Users/chrismagnacca/Projects/C/googletest-read-only/xcode/DerivedData/gtest/Build/Products/Debug/gtest.framework/Headers/gtest_pred_impl.h \
+  /Users/chrismagnacca/Projects/C++/CrackingTheCodingInterview/CrackingTheCodingInterview/LinkedListTemplate.h \
+  /Users/chrismagnacca/Projects/C++/CrackingTheCodingInterview/CrackingTheCodingInterview/NodeTemplate.h

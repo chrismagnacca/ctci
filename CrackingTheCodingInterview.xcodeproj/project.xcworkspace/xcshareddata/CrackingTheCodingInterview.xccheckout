@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>3B97F465-CC14-4E23-B6F4-AF26F91F39ED</string>
+	<key>IDESourceControlProjectName</key>
+	<string>CrackingTheCodingInterview</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>1C93FB19-CCCD-435D-82CB-D66CF835A2A9</key>
+		<string>http://googletest.googlecode.com/svn/trunk</string>
+		<key>66A70AB7-43BB-4572-B868-82CBD3F944ED</key>
+		<string>ssh://github.com/chrismagnacca/ctci.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>CrackingTheCodingInterview.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>1C93FB19-CCCD-435D-82CB-D66CF835A2A9</key>
+		<string>../../../googletest-read-only</string>
+		<key>66A70AB7-43BB-4572-B868-82CBD3F944ED</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectRepositoryRootDictionary</key>
+	<dict>
+		<key>1C93FB19-CCCD-435D-82CB-D66CF835A2A9</key>
+		<string>http://googletest.googlecode.com/svn</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>ssh://github.com/chrismagnacca/ctci.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>66A70AB7-43BB-4572-B868-82CBD3F944ED</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>66A70AB7-43BB-4572-B868-82CBD3F944ED</string>
+			<key>IDESourceControlWCCName</key>
+			<string>CrackingTheCodingInterview</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryBranchesRelativeLocationKey</key>
+			<string>branches</string>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.subversion</string>
+			<key>IDESourceControlRepositoryTagsRelativeLocationKey</key>
+			<string>tags</string>
+			<key>IDESourceControlRepositoryTrunkRelativeLocationKey</key>
+			<string>trunk</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>1C93FB19-CCCD-435D-82CB-D66CF835A2A9</string>
+			<key>IDESourceControlWCCName</key>
+			<string>googletest-read-only</string>
+		</dict>
+	</array>
+</dict>
+</plist>
