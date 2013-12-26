@@ -7,16 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AF1C304C186C771D00F56B13 /* gtest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF1C304B186C771D00F56B13 /* gtest.framework */; };
 		AF4DCC6618686DF6000DE920 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AF4DCC6518686DF6000DE920 /* main.cpp */; };
 		AF4DCC6818686DF6000DE920 /* CrackingTheCodingInterview.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = AF4DCC6718686DF6000DE920 /* CrackingTheCodingInterview.1 */; };
-		AF4DCCBC18688DD0000DE920 /* gtest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF4DCCBA18688CD1000DE920 /* gtest.framework */; };
+		AF4DCCC318688FE9000DE920 /* TestLinkedList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AF4DCCC118688FE9000DE920 /* TestLinkedList.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		AF4DCC6018686DF6000DE920 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = /usr/share/man/man1/;
+			buildActionMask = 8;
+			dstPath = usr/share/man/man1;
 			dstSubfolderSpec = 0;
 			files = (
 				AF4DCC6818686DF6000DE920 /* CrackingTheCodingInterview.1 in CopyFiles */,
@@ -26,6 +27,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		AF1C304B186C771D00F56B13 /* gtest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = gtest.framework; path = ../../../../../Library/Frameworks/gtest.framework; sourceTree = "<group>"; };
 		AF4DCC6218686DF6000DE920 /* CrackingTheCodingInterview */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CrackingTheCodingInterview; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF4DCC6518686DF6000DE920 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		AF4DCC6718686DF6000DE920 /* CrackingTheCodingInterview.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = CrackingTheCodingInterview.1; sourceTree = "<group>"; };
@@ -34,7 +36,7 @@
 		AF4DCC7418687739000DE920 /* BinaryTreeTemplate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BinaryTreeTemplate.h; sourceTree = "<group>"; };
 		AF4DCC7518687767000DE920 /* TreeNodeTemplate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TreeNodeTemplate.h; sourceTree = "<group>"; };
 		AF4DCC7618688005000DE920 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = SOURCE_ROOT; };
-		AF4DCCBA18688CD1000DE920 /* gtest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = gtest.framework; path = "../googletest-read-only/xcode/DerivedData/gtest/Build/Products/Release/gtest.framework"; sourceTree = "<group>"; };
+		AF4DCCC118688FE9000DE920 /* TestLinkedList.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TestLinkedList.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,7 +44,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AF4DCCBC18688DD0000DE920 /* gtest.framework in Frameworks */,
+				AF1C304C186C771D00F56B13 /* gtest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -101,7 +103,7 @@
 		AF4DCCA918688C73000DE920 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				AF4DCCBA18688CD1000DE920 /* gtest.framework */,
+				AF1C304B186C771D00F56B13 /* gtest.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -109,6 +111,7 @@
 		AF4DCCAC18688C73000DE920 /* CrackingTheCodingInterviewTests */ = {
 			isa = PBXGroup;
 			children = (
+				AF4DCCC118688FE9000DE920 /* TestLinkedList.cpp */,
 			);
 			path = CrackingTheCodingInterviewTests;
 			sourceTree = "<group>";
@@ -164,6 +167,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AF4DCCC318688FE9000DE920 /* TestLinkedList.cpp in Sources */,
 				AF4DCC6618686DF6000DE920 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -202,9 +206,18 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MACOSX_DEPLOYMENT_TARGET = 10.4;
 				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = "";
 				SDKROOT = macosx;
+				WARNING_CFLAGS = (
+					"-Wall",
+					"-Werror",
+					"-Wendif-labels",
+					"-Wnewline-eof",
+					"-Wno-sign-compare",
+					"-Wshadow",
+				);
 			};
 			name = Debug;
 		};
@@ -234,8 +247,17 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MACOSX_DEPLOYMENT_TARGET = 10.4;
+				OTHER_CFLAGS = "";
 				SDKROOT = macosx;
+				WARNING_CFLAGS = (
+					"-Wall",
+					"-Werror",
+					"-Wendif-labels",
+					"-Wnewline-eof",
+					"-Wno-sign-compare",
+					"-Wshadow",
+				);
 			};
 			name = Release;
 		};
@@ -243,12 +265,22 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "compiler-default";
+				CLANG_CXX_LIBRARY = "compiler-default";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"/Users/chrismagnacca/Projects/C/googletest-read-only/xcode/DerivedData/gtest/Build/Products/Debug",
-					"/Users/chrismagnacca/Projects/C/googletest-read-only/xcode/DerivedData/gtest/Build/Products/Release",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(LOCAL_LIBRARY_DIR)/Frameworks",
 				);
+				GCC_C_LANGUAGE_STANDARD = c99;
+				LD_RUNPATH_SEARCH_PATHS = "";
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				MACOSX_DEPLOYMENT_TARGET = 10.4;
+				OTHER_CFLAGS = "-DDEBUG=1";
+				OTHER_CPLUSPLUSFLAGS = "$(OTHER_CFLAGS)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
 				"USER_HEADER_SEARCH_PATHS[arch=*]" = "$(SRCROOT)/include/";
 			};
 			name = Debug;
@@ -257,12 +289,26 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "compiler-default";
+				CLANG_CXX_LIBRARY = "compiler-default";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"/Users/chrismagnacca/Projects/C/googletest-read-only/xcode/DerivedData/gtest/Build/Products/Debug",
 					"/Users/chrismagnacca/Projects/C/googletest-read-only/xcode/DerivedData/gtest/Build/Products/Release",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"/Users/chrismagnacca/Projects/C/googletest-read-only/xcode/DerivedData/gtest/Build/Products/Debug",
+					"$(LOCAL_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_C_LANGUAGE_STANDARD = c99;
+				LD_RUNPATH_SEARCH_PATHS = "";
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				MACOSX_DEPLOYMENT_TARGET = 10.4;
+				OTHER_CFLAGS = (
+					"$(OTHER_CFLAGS)",
+					"-DNDEBUG=1",
+					"-Wno-unused-variable",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
 				"USER_HEADER_SEARCH_PATHS[arch=*]" = "$(SRCROOT)/include/";
 			};
 			name = Release;
@@ -277,7 +323,7 @@
 				AF4DCC6A18686DF6000DE920 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 		AF4DCC6B18686DF6000DE920 /* Build configuration list for PBXNativeTarget "CrackingTheCodingInterview" */ = {
 			isa = XCConfigurationList;
@@ -286,6 +332,7 @@
 				AF4DCC6D18686DF6000DE920 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
 		};
 /* End XCConfigurationList section */
 	};

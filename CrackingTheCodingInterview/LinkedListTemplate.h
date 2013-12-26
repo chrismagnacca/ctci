@@ -141,4 +141,5 @@ namespace DataStructures {
 	}
 };
 
+
 #endif /* defined(__CrackingTheCodingInterview__LinkedListTemplate__) */
