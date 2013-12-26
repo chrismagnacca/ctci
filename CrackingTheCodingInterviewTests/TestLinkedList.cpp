@@ -5,6 +5,7 @@
 //  Created by Chris Magnacca on 12/23/13.
 //  Copyright (c) 2013 Chris Magnacca. All rights reserved.
 //
+
 #include <gtest/gtest.h>
 #include "LinkedListTemplate.h"
 
@@ -18,7 +19,7 @@ class LinkedListTest : public ::testing::Test {
         l1_.InsertNode(2);
         l1_.InsertNode(3);
     }
-
+    
     //virtual void TearDown(){}
     
     DataStructures::LinkedList<int> l0_;
@@ -33,6 +34,7 @@ TEST_F(LinkedListTest, IsInitiallyEmpty) {
 TEST_F(LinkedListTest, IsEmptyReturnsTrueForEmptyList) {
     EXPECT_EQ(1, l0_.IsEmpty());
 }
+
 TEST_F(LinkedListTest, IsEmptyReturnsFalseForListWithNodes) {
     EXPECT_EQ(0, l1_.IsEmpty());
 }
@@ -57,6 +59,7 @@ TEST_F(LinkedListTest, RemoveNodeRemovesListNode) {
 TEST_F(LinkedListTest, RemoveNodeReturnsFalseIfNodeNotFound){
     EXPECT_EQ(0, l0_.RemoveNode(-1));
 }
+
 
 int main(int argc, char **argv) {
     ::testing::InitGoogleTest(&argc, argv);

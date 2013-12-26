@@ -8,6 +8,7 @@
 #ifndef __CrackingTheCodingInterview__NodeTemplate__
 #define __CrackingTheCodingInterview__NodeTemplate__
 
+
 namespace DataStructures {
 	template <typename T>
 	class LinkedList;
