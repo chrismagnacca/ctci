@@ -5,5 +5,5 @@ Implementing, working through, and practicing the book's exercises in C/C++.
 
 ## Implemented Data Structures
 * Doubly Linked List
-
+* Binary Tree
 
