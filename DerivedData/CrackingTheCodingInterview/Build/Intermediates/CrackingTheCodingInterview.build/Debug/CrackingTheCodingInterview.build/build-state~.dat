@@ -1,150 +1,0 @@
-TCrackingTheCodingInterview
-v6
-r1
-cCheck dependencies
-cCompileC DerivedData/CrackingTheCodingInterview/Build/Intermediates/CrackingTheCodingInterview.build/Debug/CrackingTheCodingInterview.build/Objects-normal/x86_64/TestBinaryTree.o /Users/chrismagnacca/Projects/C++/CrackingTheCodingInterview/CrackingTheCodingInterviewTests/TestBinaryTree.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC DerivedData/CrackingTheCodingInterview/Build/Intermediates/CrackingTheCodingInterview.build/Debug/CrackingTheCodingInterview.build/Objects-normal/x86_64/TestLinkedList.o /Users/chrismagnacca/Projects/C++/CrackingTheCodingInterview/CrackingTheCodingInterviewTests/TestLinkedList.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC DerivedData/CrackingTheCodingInterview/Build/Intermediates/CrackingTheCodingInterview.build/Debug/CrackingTheCodingInterview.build/Objects-normal/x86_64/main.o /Users/chrismagnacca/Projects/C++/CrackingTheCodingInterview/CrackingTheCodingInterview/main.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/SDKSettings.plist
-c00000000526A7A1C000000000000044C
-t1382709788
-s1100
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/CoreServices/SystemVersion.plist
-c00000000526A7A1C00000000000001DB
-t1382709788
-s475
-
-N/Users/chrismagnacca/Projects/C++/CrackingTheCodingInterview/CrackingTheCodingInterview/main.cpp
-c0000000052BC75D900000000000000BF
-t1388082649
-s191
-
-N/Users/chrismagnacca/Projects/C++/CrackingTheCodingInterview/CrackingTheCodingInterviewTests/TestBinaryTree.cpp
-c0000000052BC7EC00000000000000206
-t1388084928
-s518
-
-N/Users/chrismagnacca/Projects/C++/CrackingTheCodingInterview/CrackingTheCodingInterviewTests/TestLinkedList.cpp
-c0000000052BC772C00000000000005B9
-t1388082988
-s1465
-
-N/Users/chrismagnacca/Projects/C++/CrackingTheCodingInterview/DerivedData/CrackingTheCodingInterview/Build/Intermediates/CrackingTheCodingInterview.build/Debug/CrackingTheCodingInterview.build/Objects-normal/x86_64/TestBinaryTree.o
-t2
-s0
-
-N/Users/chrismagnacca/Projects/C++/CrackingTheCodingInterview/DerivedData/CrackingTheCodingInterview/Build/Intermediates/CrackingTheCodingInterview.build/Debug/CrackingTheCodingInterview.build/Objects-normal/x86_64/TestLinkedList.o
-t2
-s0
-
-N/Users/chrismagnacca/Projects/C++/CrackingTheCodingInterview/DerivedData/CrackingTheCodingInterview/Build/Intermediates/CrackingTheCodingInterview.build/Debug/CrackingTheCodingInterview.build/Objects-normal/x86_64/main.o
-t2
-s0
-
-CBuild AST from /Users/chrismagnacca/Projects/C++/CrackingTheCodingInterview/CrackingTheCodingInterview/main.cpp
-r0
-
-CBuild AST from /Users/chrismagnacca/Projects/C++/CrackingTheCodingInterview/CrackingTheCodingInterviewTests/TestBinaryTree.cpp
-r0
-
-CBuild AST from /Users/chrismagnacca/Projects/C++/CrackingTheCodingInterview/CrackingTheCodingInterviewTests/TestLinkedList.cpp
-r0
-
-CCheck dependencies
-r0
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencies5ce52d41b66cb841^19703241b66cb841^---0#1#1#--18"Check dependencies36"5646506A-5105-4F1D-9C91-0DB7B8D361D8-
-
-CCompileC DerivedData/CrackingTheCodingInterview/Build/Intermediates/CrackingTheCodingInterview.build/Debug/CrackingTheCodingInterview.build/Objects-normal/x86_64/TestBinaryTree.o /Users/chrismagnacca/Projects/C++/CrackingTheCodingInterview/CrackingTheCodingInterviewTests/TestBinaryTree.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
-s409777729.197917
-e409777730.397387
-r0
-xCompileC
-xDerivedData/CrackingTheCodingInterview/Build/Intermediates/CrackingTheCodingInterview.build/Debug/CrackingTheCodingInterview.build/Objects-normal/x86_64/TestBinaryTree.o
-x/Users/chrismagnacca/Projects/C++/CrackingTheCodingInterview/CrackingTheCodingInterviewTests/TestBinaryTree.cpp
-xnormal
-xx86_64
-xc++
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Users/chrismagnacca/Projects/C++/CrackingTheCodingInterview/CrackingTheCodingInterviewTests/TestBinaryTree.cpp
-d/Users/chrismagnacca/Projects/C/googletest-read-only/xcode/DerivedData/gtest/Build/Products/Debug/gtest.framework/Headers/gtest.h
-d/Users/chrismagnacca/Projects/C/googletest-read-only/xcode/DerivedData/gtest/Build/Products/Debug/gtest.framework/Headers/internal/gtest-internal.h
-d/Users/chrismagnacca/Projects/C/googletest-read-only/xcode/DerivedData/gtest/Build/Products/Debug/gtest.framework/Headers/internal/gtest-port.h
-d/Users/chrismagnacca/Projects/C/googletest-read-only/xcode/DerivedData/gtest/Build/Products/Debug/gtest.framework/Headers/gtest-message.h
-d/Users/chrismagnacca/Projects/C/googletest-read-only/xcode/DerivedData/gtest/Build/Products/Debug/gtest.framework/Headers/internal/gtest-string.h
-d/Users/chrismagnacca/Projects/C/googletest-read-only/xcode/DerivedData/gtest/Build/Products/Debug/gtest.framework/Headers/internal/gtest-filepath.h
-d/Users/chrismagnacca/Projects/C/googletest-read-only/xcode/DerivedData/gtest/Build/Products/Debug/gtest.framework/Headers/internal/gtest-type-util.h
-d/Users/chrismagnacca/Projects/C/googletest-read-only/xcode/DerivedData/gtest/Build/Products/Debug/gtest.framework/Headers/gtest-death-test.h
-d/Users/chrismagnacca/Projects/C/googletest-read-only/xcode/DerivedData/gtest/Build/Products/Debug/gtest.framework/Headers/internal/gtest-death-test-internal.h
-d/Users/chrismagnacca/Projects/C/googletest-read-only/xcode/DerivedData/gtest/Build/Products/Debug/gtest.framework/Headers/gtest-param-test.h
-d/Users/chrismagnacca/Projects/C/googletest-read-only/xcode/DerivedData/gtest/Build/Products/Debug/gtest.framework/Headers/internal/gtest-param-util.h
-d/Users/chrismagnacca/Projects/C/googletest-read-only/xcode/DerivedData/gtest/Build/Products/Debug/gtest.framework/Headers/internal/gtest-linked_ptr.h
-d/Users/chrismagnacca/Projects/C/googletest-read-only/xcode/DerivedData/gtest/Build/Products/Debug/gtest.framework/Headers/gtest-printers.h
-d/Users/chrismagnacca/Projects/C/googletest-read-only/xcode/DerivedData/gtest/Build/Products/Debug/gtest.framework/Headers/internal/gtest-param-util-generated.h
-d/Users/chrismagnacca/Projects/C/googletest-read-only/xcode/DerivedData/gtest/Build/Products/Debug/gtest.framework/Headers/gtest_prod.h
-d/Users/chrismagnacca/Projects/C/googletest-read-only/xcode/DerivedData/gtest/Build/Products/Debug/gtest.framework/Headers/gtest-test-part.h
-d/Users/chrismagnacca/Projects/C/googletest-read-only/xcode/DerivedData/gtest/Build/Products/Debug/gtest.framework/Headers/gtest-typed-test.h
-d/Users/chrismagnacca/Projects/C/googletest-read-only/xcode/DerivedData/gtest/Build/Products/Debug/gtest.framework/Headers/gtest_pred_impl.h
-d/Users/chrismagnacca/Projects/C++/CrackingTheCodingInterview/CrackingTheCodingInterview/BinaryTreeTemplate.h
-d/Users/chrismagnacca/Projects/C++/CrackingTheCodingInterview/CrackingTheCodingInterview/TreeNodeTemplate.h
-o/Users/chrismagnacca/Projects/C++/CrackingTheCodingInterview/CrackingTheCodingInterviewTests/TestBinaryTree.cpp:28:2: error: no newline at end of file [-Werror,-Wnewline-eof]
-o}
-o ^
-o1 error generated.
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection119"Compile /Users/chrismagnacca/Projects/C++/CrackingTheCodingInterview/CrackingTheCodingInterviewTests/TestBinaryTree.cpp291"CompileC DerivedData/CrackingTheCodingInterview/Build/Intermediates/CrackingTheCodingInterview.build/Debug/CrackingTheCodingInterview.build/Objects-normal/x86_64/TestBinaryTree.o CrackingTheCodingInterviewTests/TestBinaryTree.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler6abe3241b66cb841^38bb6542b66cb841^-199"/Users/chrismagnacca/Projects/C++/CrackingTheCodingInterview/CrackingTheCodingInterviewTests/TestBinaryTree.cpp:28:2: error: no newline at end of file [-Werror,-Wnewline-eof]} ^1 error generated.1(36%IDEClangDiagnosticActivityLogMessage2@25"No newline at end of file-409777730#18446744073709551615#0#-2#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@118"file:///Users/chrismagnacca/Projects/C++/CrackingTheCodingInterview/CrackingTheCodingInterviewTests/TestBinaryTree.cpp0000000000000000^27#1#27#1#518#0#29"Lexical or Preprocessor Issue1(3@118"file:///Users/chrismagnacca/Projects/C++/CrackingTheCodingInterview/CrackingTheCodingInterviewTests/TestBinaryTree.cpp0000000000000000^27#1#27#1#518#0#-0#0#1#-19%DVTDocumentLocation4@118"file:///Users/chrismagnacca/Projects/C++/CrackingTheCodingInterview/CrackingTheCodingInterviewTests/TestBinaryTree.cpp0000000000000000^3675"CompileC DerivedData/CrackingTheCodingInterview/Build/Intermediates/CrackingTheCodingInterview.build/Debug/CrackingTheCodingInterview.build/Objects-normal/x86_64/TestBinaryTree.o CrackingTheCodingInterviewTests/TestBinaryTree.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/chrismagnacca/Projects/C++/CrackingTheCodingInterview    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.4 -g -fvisibility-inlines-hidden -Wno-sign-conversion -I/Users/chrismagnacca/Projects/C++/CrackingTheCodingInterview/DerivedData/CrackingTheCodingInterview/Build/Intermediates/CrackingTheCodingInterview.build/Debug/CrackingTheCodingInterview.build/CrackingTheCodingInterview.hmap -I/Users/chrismagnacca/Projects/C++/CrackingTheCodingInterview/include -I/Users/chrismagnacca/Projects/C++/CrackingTheCodingInterview/DerivedData/CrackingTheCodingInterview/Build/Products/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/chrismagnacca/Projects/C++/CrackingTheCodingInterview/DerivedData/CrackingTheCodingInterview/Build/Intermediates/CrackingTheCodingInterview.build/Debug/CrackingTheCodingInterview.build/DerivedSources/x86_64 -I/Users/chrismagnacca/Projects/C++/CrackingTheCodingInterview/DerivedData/CrackingTheCodingInterview/Build/Intermediates/CrackingTheCodingInterview.build/Debug/CrackingTheCodingInterview.build/DerivedSources -Wall -Werror -Wendif-labels -Wnewline-eof -Wno-sign-compare -Wshadow -F/Users/chrismagnacca/Projects/C++/CrackingTheCodingInterview/DerivedData/CrackingTheCodingInterview/Build/Products/Debug -F/Users/chrismagnacca/Projects/C/googletest-read-only/xcode/DerivedData/gtest/Build/Products/Debug -F/Applications/Xcode.app/Contents/Developer/Library/Frameworks -F/Library/Frameworks -DDEBUG=1 -MMD -MT dependencies -MF /Users/chrismagnacca/Projects/C++/CrackingTheCodingInterview/DerivedData/CrackingTheCodingInterview/Build/Intermediates/CrackingTheCodingInterview.build/Debug/CrackingTheCodingInterview.build/Objects-normal/x86_64/TestBinaryTree.d --serialize-diagnostics /Users/chrismagnacca/Projects/C++/CrackingTheCodingInterview/DerivedData/CrackingTheCodingInterview/Build/Intermediates/CrackingTheCodingInterview.build/Debug/CrackingTheCodingInterview.build/Objects-normal/x86_64/TestBinaryTree.dia -c /Users/chrismagnacca/Projects/C++/CrackingTheCodingInterview/CrackingTheCodingInterviewTests/TestBinaryTree.cpp -o /Users/chrismagnacca/Projects/C++/CrackingTheCodingInterview/DerivedData/CrackingTheCodingInterview/Build/Intermediates/CrackingTheCodingInterview.build/Debug/CrackingTheCodingInterview.build/Objects-normal/x86_64/TestBinaryTree.o36"2A952C5A-CA78-4FC7-A097-844EFCE36E27-
-bE20E24D7-B7FD-4580-BECC-6841EB92698A
-
-CCompileC DerivedData/CrackingTheCodingInterview/Build/Intermediates/CrackingTheCodingInterview.build/Debug/CrackingTheCodingInterview.build/Objects-normal/x86_64/TestLinkedList.o /Users/chrismagnacca/Projects/C++/CrackingTheCodingInterview/CrackingTheCodingInterviewTests/TestLinkedList.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
-s409777729.198199
-e409777730.478250
-r1
-xCompileC
-xDerivedData/CrackingTheCodingInterview/Build/Intermediates/CrackingTheCodingInterview.build/Debug/CrackingTheCodingInterview.build/Objects-normal/x86_64/TestLinkedList.o
-x/Users/chrismagnacca/Projects/C++/CrackingTheCodingInterview/CrackingTheCodingInterviewTests/TestLinkedList.cpp
-xnormal
-xx86_64
-xc++
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Users/chrismagnacca/Projects/C++/CrackingTheCodingInterview/CrackingTheCodingInterviewTests/TestLinkedList.cpp
-d/Users/chrismagnacca/Projects/C/googletest-read-only/xcode/DerivedData/gtest/Build/Products/Debug/gtest.framework/Headers/gtest.h
-d/Users/chrismagnacca/Projects/C/googletest-read-only/xcode/DerivedData/gtest/Build/Products/Debug/gtest.framework/Headers/internal/gtest-internal.h
-d/Users/chrismagnacca/Projects/C/googletest-read-only/xcode/DerivedData/gtest/Build/Products/Debug/gtest.framework/Headers/internal/gtest-port.h
-d/Users/chrismagnacca/Projects/C/googletest-read-only/xcode/DerivedData/gtest/Build/Products/Debug/gtest.framework/Headers/gtest-message.h
-d/Users/chrismagnacca/Projects/C/googletest-read-only/xcode/DerivedData/gtest/Build/Products/Debug/gtest.framework/Headers/internal/gtest-string.h
-d/Users/chrismagnacca/Projects/C/googletest-read-only/xcode/DerivedData/gtest/Build/Products/Debug/gtest.framework/Headers/internal/gtest-filepath.h
-d/Users/chrismagnacca/Projects/C/googletest-read-only/xcode/DerivedData/gtest/Build/Products/Debug/gtest.framework/Headers/internal/gtest-type-util.h
-d/Users/chrismagnacca/Projects/C/googletest-read-only/xcode/DerivedData/gtest/Build/Products/Debug/gtest.framework/Headers/gtest-death-test.h
-d/Users/chrismagnacca/Projects/C/googletest-read-only/xcode/DerivedData/gtest/Build/Products/Debug/gtest.framework/Headers/internal/gtest-death-test-internal.h
-d/Users/chrismagnacca/Projects/C/googletest-read-only/xcode/DerivedData/gtest/Build/Products/Debug/gtest.framework/Headers/gtest-param-test.h
-d/Users/chrismagnacca/Projects/C/googletest-read-only/xcode/DerivedData/gtest/Build/Products/Debug/gtest.framework/Headers/internal/gtest-param-util.h
-d/Users/chrismagnacca/Projects/C/googletest-read-only/xcode/DerivedData/gtest/Build/Products/Debug/gtest.framework/Headers/internal/gtest-linked_ptr.h
-d/Users/chrismagnacca/Projects/C/googletest-read-only/xcode/DerivedData/gtest/Build/Products/Debug/gtest.framework/Headers/gtest-printers.h
-d/Users/chrismagnacca/Projects/C/googletest-read-only/xcode/DerivedData/gtest/Build/Products/Debug/gtest.framework/Headers/internal/gtest-param-util-generated.h
-d/Users/chrismagnacca/Projects/C/googletest-read-only/xcode/DerivedData/gtest/Build/Products/Debug/gtest.framework/Headers/gtest_prod.h
-d/Users/chrismagnacca/Projects/C/googletest-read-only/xcode/DerivedData/gtest/Build/Products/Debug/gtest.framework/Headers/gtest-test-part.h
-d/Users/chrismagnacca/Projects/C/googletest-read-only/xcode/DerivedData/gtest/Build/Products/Debug/gtest.framework/Headers/gtest-typed-test.h
-d/Users/chrismagnacca/Projects/C/googletest-read-only/xcode/DerivedData/gtest/Build/Products/Debug/gtest.framework/Headers/gtest_pred_impl.h
-d/Users/chrismagnacca/Projects/C++/CrackingTheCodingInterview/CrackingTheCodingInterview/LinkedListTemplate.h
-d/Users/chrismagnacca/Projects/C++/CrackingTheCodingInterview/CrackingTheCodingInterview/NodeTemplate.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection119"Compile /Users/chrismagnacca/Projects/C++/CrackingTheCodingInterview/CrackingTheCodingInterviewTests/TestLinkedList.cpp291"CompileC DerivedData/CrackingTheCodingInterview/Build/Intermediates/CrackingTheCodingInterview.build/Debug/CrackingTheCodingInterview.build/Objects-normal/x86_64/TestLinkedList.o CrackingTheCodingInterviewTests/TestLinkedList.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compilerd4d43241b66cb841^3f6f7a42b66cb841^---0#0#1#-19%DVTDocumentLocation2@118"file:///Users/chrismagnacca/Projects/C++/CrackingTheCodingInterview/CrackingTheCodingInterviewTests/TestLinkedList.cpp0000000000000000^3675"CompileC DerivedData/CrackingTheCodingInterview/Build/Intermediates/CrackingTheCodingInterview.build/Debug/CrackingTheCodingInterview.build/Objects-normal/x86_64/TestLinkedList.o CrackingTheCodingInterviewTests/TestLinkedList.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/chrismagnacca/Projects/C++/CrackingTheCodingInterview    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.4 -g -fvisibility-inlines-hidden -Wno-sign-conversion -I/Users/chrismagnacca/Projects/C++/CrackingTheCodingInterview/DerivedData/CrackingTheCodingInterview/Build/Intermediates/CrackingTheCodingInterview.build/Debug/CrackingTheCodingInterview.build/CrackingTheCodingInterview.hmap -I/Users/chrismagnacca/Projects/C++/CrackingTheCodingInterview/include -I/Users/chrismagnacca/Projects/C++/CrackingTheCodingInterview/DerivedData/CrackingTheCodingInterview/Build/Products/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/chrismagnacca/Projects/C++/CrackingTheCodingInterview/DerivedData/CrackingTheCodingInterview/Build/Intermediates/CrackingTheCodingInterview.build/Debug/CrackingTheCodingInterview.build/DerivedSources/x86_64 -I/Users/chrismagnacca/Projects/C++/CrackingTheCodingInterview/DerivedData/CrackingTheCodingInterview/Build/Intermediates/CrackingTheCodingInterview.build/Debug/CrackingTheCodingInterview.build/DerivedSources -Wall -Werror -Wendif-labels -Wnewline-eof -Wno-sign-compare -Wshadow -F/Users/chrismagnacca/Projects/C++/CrackingTheCodingInterview/DerivedData/CrackingTheCodingInterview/Build/Products/Debug -F/Users/chrismagnacca/Projects/C/googletest-read-only/xcode/DerivedData/gtest/Build/Products/Debug -F/Applications/Xcode.app/Contents/Developer/Library/Frameworks -F/Library/Frameworks -DDEBUG=1 -MMD -MT dependencies -MF /Users/chrismagnacca/Projects/C++/CrackingTheCodingInterview/DerivedData/CrackingTheCodingInterview/Build/Intermediates/CrackingTheCodingInterview.build/Debug/CrackingTheCodingInterview.build/Objects-normal/x86_64/TestLinkedList.d --serialize-diagnostics /Users/chrismagnacca/Projects/C++/CrackingTheCodingInterview/DerivedData/CrackingTheCodingInterview/Build/Intermediates/CrackingTheCodingInterview.build/Debug/CrackingTheCodingInterview.build/Objects-normal/x86_64/TestLinkedList.dia -c /Users/chrismagnacca/Projects/C++/CrackingTheCodingInterview/CrackingTheCodingInterviewTests/TestLinkedList.cpp -o /Users/chrismagnacca/Projects/C++/CrackingTheCodingInterview/DerivedData/CrackingTheCodingInterview/Build/Intermediates/CrackingTheCodingInterview.build/Debug/CrackingTheCodingInterview.build/Objects-normal/x86_64/TestLinkedList.o36"CCDFE6FA-F490-47E9-96FA-70C6EBAB7A6E-
-bE20E24D7-B7FD-4580-BECC-6841EB92698A
-
-CCompileC DerivedData/CrackingTheCodingInterview/Build/Intermediates/CrackingTheCodingInterview.build/Debug/CrackingTheCodingInterview.build/Objects-normal/x86_64/main.o /Users/chrismagnacca/Projects/C++/CrackingTheCodingInterview/CrackingTheCodingInterview/main.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
-s409777729.198559
-e409777729.218084
-r1
-xCompileC
-xDerivedData/CrackingTheCodingInterview/Build/Intermediates/CrackingTheCodingInterview.build/Debug/CrackingTheCodingInterview.build/Objects-normal/x86_64/main.o
-x/Users/chrismagnacca/Projects/C++/CrackingTheCodingInterview/CrackingTheCodingInterview/main.cpp
-xnormal
-xx86_64
-xc++
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Users/chrismagnacca/Projects/C++/CrackingTheCodingInterview/CrackingTheCodingInterview/main.cpp
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection104"Compile /Users/chrismagnacca/Projects/C++/CrackingTheCodingInterview/CrackingTheCodingInterview/main.cpp266"CompileC DerivedData/CrackingTheCodingInterview/Build/Intermediates/CrackingTheCodingInterview.build/Debug/CrackingTheCodingInterview.build/Objects-normal/x86_64/main.o CrackingTheCodingInterview/main.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compilerd9ea3241b66cb841^cbd53741b66cb841^---0#0#1#-19%DVTDocumentLocation2@103"file:///Users/chrismagnacca/Projects/C++/CrackingTheCodingInterview/CrackingTheCodingInterview/main.cpp0000000000000000^3605"CompileC DerivedData/CrackingTheCodingInterview/Build/Intermediates/CrackingTheCodingInterview.build/Debug/CrackingTheCodingInterview.build/Objects-normal/x86_64/main.o CrackingTheCodingInterview/main.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/chrismagnacca/Projects/C++/CrackingTheCodingInterview    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.4 -g -fvisibility-inlines-hidden -Wno-sign-conversion -I/Users/chrismagnacca/Projects/C++/CrackingTheCodingInterview/DerivedData/CrackingTheCodingInterview/Build/Intermediates/CrackingTheCodingInterview.build/Debug/CrackingTheCodingInterview.build/CrackingTheCodingInterview.hmap -I/Users/chrismagnacca/Projects/C++/CrackingTheCodingInterview/include -I/Users/chrismagnacca/Projects/C++/CrackingTheCodingInterview/DerivedData/CrackingTheCodingInterview/Build/Products/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/chrismagnacca/Projects/C++/CrackingTheCodingInterview/DerivedData/CrackingTheCodingInterview/Build/Intermediates/CrackingTheCodingInterview.build/Debug/CrackingTheCodingInterview.build/DerivedSources/x86_64 -I/Users/chrismagnacca/Projects/C++/CrackingTheCodingInterview/DerivedData/CrackingTheCodingInterview/Build/Intermediates/CrackingTheCodingInterview.build/Debug/CrackingTheCodingInterview.build/DerivedSources -Wall -Werror -Wendif-labels -Wnewline-eof -Wno-sign-compare -Wshadow -F/Users/chrismagnacca/Projects/C++/CrackingTheCodingInterview/DerivedData/CrackingTheCodingInterview/Build/Products/Debug -F/Users/chrismagnacca/Projects/C/googletest-read-only/xcode/DerivedData/gtest/Build/Products/Debug -F/Applications/Xcode.app/Contents/Developer/Library/Frameworks -F/Library/Frameworks -DDEBUG=1 -MMD -MT dependencies -MF /Users/chrismagnacca/Projects/C++/CrackingTheCodingInterview/DerivedData/CrackingTheCodingInterview/Build/Intermediates/CrackingTheCodingInterview.build/Debug/CrackingTheCodingInterview.build/Objects-normal/x86_64/main.d --serialize-diagnostics /Users/chrismagnacca/Projects/C++/CrackingTheCodingInterview/DerivedData/CrackingTheCodingInterview/Build/Intermediates/CrackingTheCodingInterview.build/Debug/CrackingTheCodingInterview.build/Objects-normal/x86_64/main.dia -c /Users/chrismagnacca/Projects/C++/CrackingTheCodingInterview/CrackingTheCodingInterview/main.cpp -o /Users/chrismagnacca/Projects/C++/CrackingTheCodingInterview/DerivedData/CrackingTheCodingInterview/Build/Intermediates/CrackingTheCodingInterview.build/Debug/CrackingTheCodingInterview.build/Objects-normal/x86_64/main.o36"30AAAE3A-4105-4A0E-AFDB-2B8509423D08-
-bE20E24D7-B7FD-4580-BECC-6841EB92698A
-
-CLd /Users/chrismagnacca/Projects/C++/CrackingTheCodingInterview/DerivedData/CrackingTheCodingInterview/Build/Products/Debug/CrackingTheCodingInterview normal x86_64
-r0
-

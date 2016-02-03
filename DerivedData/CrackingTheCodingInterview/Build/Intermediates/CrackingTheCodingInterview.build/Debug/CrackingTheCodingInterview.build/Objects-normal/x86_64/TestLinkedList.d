@@ -1,5 +1,5 @@
 dependencies: \
-  /Users/chrismagnacca/Projects/C++/CrackingTheCodingInterview/CrackingTheCodingInterviewTests/TestLinkedList.cpp \
+  /Users/chrismagnacca/Projects/C++/ctci/CrackingTheCodingInterviewTests/TestLinkedList.cpp \
   /Users/chrismagnacca/Projects/C/googletest-read-only/xcode/DerivedData/gtest/Build/Products/Debug/gtest.framework/Headers/gtest.h \
   /Users/chrismagnacca/Projects/C/googletest-read-only/xcode/DerivedData/gtest/Build/Products/Debug/gtest.framework/Headers/internal/gtest-internal.h \
   /Users/chrismagnacca/Projects/C/googletest-read-only/xcode/DerivedData/gtest/Build/Products/Debug/gtest.framework/Headers/internal/gtest-port.h \
@@ -18,5 +18,5 @@ dependencies: \
   /Users/chrismagnacca/Projects/C/googletest-read-only/xcode/DerivedData/gtest/Build/Products/Debug/gtest.framework/Headers/gtest-test-part.h \
   /Users/chrismagnacca/Projects/C/googletest-read-only/xcode/DerivedData/gtest/Build/Products/Debug/gtest.framework/Headers/gtest-typed-test.h \
   /Users/chrismagnacca/Projects/C/googletest-read-only/xcode/DerivedData/gtest/Build/Products/Debug/gtest.framework/Headers/gtest_pred_impl.h \
-  /Users/chrismagnacca/Projects/C++/CrackingTheCodingInterview/CrackingTheCodingInterview/LinkedListTemplate.h \
-  /Users/chrismagnacca/Projects/C++/CrackingTheCodingInterview/CrackingTheCodingInterview/NodeTemplate.h
+  /Users/chrismagnacca/Projects/C++/ctci/CrackingTheCodingInterview/LinkedListTemplate.h \
+  /Users/chrismagnacca/Projects/C++/ctci/CrackingTheCodingInterview/NodeTemplate.h

@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		AF1C304C186C771D00F56B13 /* gtest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF1C304B186C771D00F56B13 /* gtest.framework */; };
+		AF3A284F1C61B1C200F1BAD8 /* BinarySearchTree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AF3A284D1C61B1C200F1BAD8 /* BinarySearchTree.cpp */; };
+		AF3A28521C61B84400F1BAD8 /* Graph.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AF3A28501C61B84400F1BAD8 /* Graph.cpp */; };
 		AF4DCC6618686DF6000DE920 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AF4DCC6518686DF6000DE920 /* main.cpp */; };
 		AF4DCC6818686DF6000DE920 /* CrackingTheCodingInterview.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = AF4DCC6718686DF6000DE920 /* CrackingTheCodingInterview.1 */; };
 		AF4DCCC318688FE9000DE920 /* TestLinkedList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AF4DCCC118688FE9000DE920 /* TestLinkedList.cpp */; };
@@ -30,6 +32,10 @@
 
 /* Begin PBXFileReference section */
 		AF1C304B186C771D00F56B13 /* gtest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = gtest.framework; path = ../../../../../Library/Frameworks/gtest.framework; sourceTree = "<group>"; };
+		AF3A284D1C61B1C200F1BAD8 /* BinarySearchTree.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BinarySearchTree.cpp; sourceTree = "<group>"; };
+		AF3A284E1C61B1C200F1BAD8 /* BinarySearchTree.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = BinarySearchTree.hpp; sourceTree = "<group>"; };
+		AF3A28501C61B84400F1BAD8 /* Graph.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Graph.cpp; sourceTree = "<group>"; };
+		AF3A28511C61B84400F1BAD8 /* Graph.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Graph.hpp; sourceTree = "<group>"; };
 		AF4DCC6218686DF6000DE920 /* CrackingTheCodingInterview */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CrackingTheCodingInterview; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF4DCC6518686DF6000DE920 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		AF4DCC6718686DF6000DE920 /* CrackingTheCodingInterview.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = CrackingTheCodingInterview.1; sourceTree = "<group>"; };
@@ -92,6 +98,10 @@
 				AF4DCC7318687168000DE920 /* NodeTemplate.h */,
 				AF4DCC7418687739000DE920 /* BinaryTreeTemplate.h */,
 				AF4DCC7518687767000DE920 /* TreeNodeTemplate.h */,
+				AF3A284D1C61B1C200F1BAD8 /* BinarySearchTree.cpp */,
+				AF3A284E1C61B1C200F1BAD8 /* BinarySearchTree.hpp */,
+				AF3A28501C61B84400F1BAD8 /* Graph.cpp */,
+				AF3A28511C61B84400F1BAD8 /* Graph.hpp */,
 			);
 			name = include;
 			path = CrackingTheCodingInterview;
@@ -177,6 +187,8 @@
 				AF4DCCC318688FE9000DE920 /* TestLinkedList.cpp in Sources */,
 				AFF03C02186CB6FE00A27066 /* main.cpp in Sources */,
 				AF4DCC6618686DF6000DE920 /* main.cpp in Sources */,
+				AF3A28521C61B84400F1BAD8 /* Graph.cpp in Sources */,
+				AF3A284F1C61B1C200F1BAD8 /* BinarySearchTree.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
